@@ -1,17 +1,10 @@
-﻿<Properties StartupConfiguration="{7ABC51D2-6934-4418-BA1B-53AE9EECDBCA}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Point/Program.cs">
-    <Files>
-      <File FileName="Point/Program.cs" Line="116" Column="21" />
-      <File FileName="Point/Snake.cs" Line="77" Column="19" />
-    </Files>
+﻿<Properties StartupConfiguration="{A5DD86F7-7041-4888-AB9E-A20E7A6CB32B}|Default">
+  <MonoDevelop.Ide.Workbench>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="SnakeDraft" expanded="True">
-            <Node name="Point" expanded="True">
-              <Node name="Program.cs" selected="True" />
-            </Node>
-            <Node name="SnakeDraft" expanded="True" />
+            <Node name="SnakeDraft" selected="True" />
           </Node>
         </State>
       </Pad>
@@ -24,5 +17,4 @@
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.Point PreferredExecutionTarget="MonoDevelop.Default" />
 </Properties>

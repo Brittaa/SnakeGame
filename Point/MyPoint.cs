@@ -33,20 +33,25 @@ namespace Point
         {
             if(direction == Direction.RIGHT)
             {
-                x = x + offset;
+                x += offset;
             }
             else if (direction == Direction.LEFT)
             {
-                x = x - offset;
+                x -= offset;
             }
             else if (direction == Direction.UP)
             {
-                y = y + offset;
+                y -= offset;
             }
             else if( direction == Direction.DOWN)
             {
-                y = y - offset;
+                y += offset;
             }
+        }
+        public bool IsHit(MyPoint point)
+        {
+            //kontrollime kas punktid on ühel kohal
+            return point.x == x && point.y == y;
         }
     }
 }
